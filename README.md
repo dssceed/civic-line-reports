@@ -1,73 +1,265 @@
-# Welcome to your Lovable project
+# Civic Line Reports
 
-## Project info
+ระบบจัดการเรื่องร้องเรียนและแบบฟอร์มสาธารณะสำหรับหน่วยงานท้องถิ่น
 
-**URL**: https://lovable.dev/projects/f9956236-1c7a-40d3-a445-382ccbcff3bf
+## 📋 ภาพรวมโปรเจค
 
-## How can I edit this code?
+Civic Line Reports เป็นระบบจัดการเรื่องร้องเรียนและแบบฟอร์มสาธารณะที่พัฒนาด้วย React และ TypeScript โดยมีฟีเจอร์หลักดังนี้:
 
-There are several ways of editing your application.
+- **ระบบจัดการเรื่องร้องเรียน**: รับเรื่องร้องเรียนจากประชาชน พร้อมระบบติดตามสถานะ
+- **แบบฟอร์มสาธารณะ**: สร้างและจัดการแบบฟอร์มสำหรับประชาชนกรอกข้อมูล
+- **ระบบติดตาม**: ติดตามสถานะการดำเนินการเรื่องร้องเรียน
+- **ระบบรายงาน**: สร้างรายงานสถิติต่างๆ
+- **ระบบผู้ใช้**: จัดการสิทธิ์และบทบาทของผู้ใช้งาน
+- **ระบบหมวดหมู่**: จัดหมวดหมู่เรื่องร้องเรียนและแบบฟอร์ม
 
-**Use Lovable**
+## 🚀 ฟีเจอร์หลัก
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f9956236-1c7a-40d3-a445-382ccbcff3bf) and start prompting.
+### สำหรับประชาชน
+- กรอกแบบฟอร์มร้องเรียนออนไลน์
+- ติดตามสถานะการดำเนินการ
+- อัปโหลดรูปภาพและไฟล์แนบ
+- ระบุตำแหน่งบนแผนที่
 
-Changes made via Lovable will be committed automatically to this repo.
+### สำหรับเจ้าหน้าที่
+- ดูรายการเรื่องร้องเรียนทั้งหมด
+- อัปเดตสถานะการดำเนินการ
+- เพิ่มบันทึกกิจกรรม
+- จัดการหมวดหมู่และแบบฟอร์ม
+- ดูรายงานสถิติ
 
-**Use your preferred IDE**
+### สำหรับผู้ดูแลระบบ
+- จัดการผู้ใช้งานและสิทธิ์
+- สร้างและแก้ไขแบบฟอร์ม
+- ดูรายงานสถิติแบบละเอียด
+- จัดการหมวดหมู่
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠 เทคโนโลยีที่ใช้
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend
+- **React 18** - UI Framework
+- **TypeScript** - Type Safety
+- **Vite** - Build Tool
+- **React Router DOM** - Routing
+- **TanStack Query** - State Management & API Caching
 
-Follow these steps:
+### UI Components
+- **Radix UI** - Headless UI Components
+- **Tailwind CSS** - Styling
+- **Shadcn/ui** - Component Library
+- **Lucide React** - Icons
+- **Sonner** - Toast Notifications
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Forms & Validation
+- **React Hook Form** - Form Management
+- **Zod** - Schema Validation
+- **@hookform/resolvers** - Form Validation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Maps & Location
+- **Leaflet** - Interactive Maps
+- **React Leaflet** - React Wrapper for Leaflet
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Charts & Data Visualization
+- **Recharts** - Data Charts
+- **React Day Picker** - Date Picker
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Internationalization
+- **i18next** - Internationalization
+- **react-i18next** - React i18n
+
+### Development Tools
+- **ESLint** - Code Linting
+- **TypeScript ESLint** - TypeScript Linting
+- **PostCSS** - CSS Processing
+- **Autoprefixer** - CSS Vendor Prefixes
+
+## 📁 โครงสร้างโปรเจค
+
+```
+src/
+├── components/          # UI Components
+│   ├── auth/           # Authentication Components
+│   ├── layout/         # Layout Components
+│   └── ui/             # Reusable UI Components
+├── domains/            # Domain-specific Code
+│   ├── auth/           # Authentication Domain
+│   ├── categories/     # Categories Domain
+│   ├── complaintForms/ # Public Forms Domain
+│   ├── complaints/     # Complaints Domain
+│   └── users/          # Users Domain
+├── pages/              # Page Components
+├── routes/             # Routing Configuration
+├── providers/          # Context Providers
+├── hooks/              # Custom Hooks
+├── lib/                # Utility Functions
+├── locales/            # Internationalization Files
+└── common/             # Shared Types and Utilities
+    └── types/          # TypeScript Type Definitions
 ```
 
-**Edit a file directly in GitHub**
+## 🚀 วิธีติดตั้งและใช้งาน
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### ความต้องการของระบบ
+- Node.js 18+ 
+- npm หรือ yarn
 
-**Use GitHub Codespaces**
+### การติดตั้ง
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+1. **Clone โปรเจค**
+```bash
+git clone <repository-url>
+cd civic-line-reports
+```
 
-## What technologies are used for this project?
+2. **ติดตั้ง Dependencies**
+```bash
+npm install
+# หรือ
+yarn install
+```
 
-This project is built with:
+3. **รันโปรเจคในโหมด Development**
+```bash
+npm run dev
+# หรือ
+yarn dev
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+4. **เปิดเบราว์เซอร์ไปที่**
+```
+http://localhost:8080
+```
 
-## How can I deploy this project?
+### Scripts ที่มี
 
-Simply open [Lovable](https://lovable.dev/projects/f9956236-1c7a-40d3-a445-382ccbcff3bf) and click on Share -> Publish.
+```bash
+# Development
+npm run dev              # รันโปรเจคในโหมด development
+npm run build:dev        # Build โปรเจคในโหมด development
 
-## Can I connect a custom domain to my Lovable project?
+# Production
+npm run build            # Build โปรเจคสำหรับ production
+npm run preview          # Preview production build
 
-Yes, you can!
+# Code Quality
+npm run lint             # ตรวจสอบ code quality
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🔐 ระบบสิทธิ์และบทบาท
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### บทบาทผู้ใช้งาน
+- **admin**: ผู้ดูแลระบบ - เข้าถึงฟีเจอร์ทั้งหมด
+- **officer**: เจ้าหน้าที่ - จัดการเรื่องร้องเรียนและแบบฟอร์ม
+
+### หน้าสาธารณะ
+- `/` - หน้าหลัก
+- `/home` - หน้าแรก
+- `/login` - หน้าเข้าสู่ระบบ
+- `/forms` - รายการแบบฟอร์มสาธารณะ
+- `/forms/:formId` - แบบฟอร์มสำหรับกรอกข้อมูล
+- `/tracking` - ติดตามสถานะ
+
+### หน้าสำหรับผู้ใช้ที่เข้าสู่ระบบ
+- `/dashboard` - แดชบอร์ด
+- `/complaints` - จัดการเรื่องร้องเรียน
+- `/reports` - รายงานสถิติ
+- `/complaint-forms` - จัดการแบบฟอร์ม
+- `/users` - จัดการผู้ใช้งาน
+- `/categories` - จัดการหมวดหมู่
+- `/settings` - ตั้งค่าระบบ
+
+## 📊 ข้อมูลและประเภท
+
+### ประเภทเรื่องร้องเรียน
+- ไฟฟ้าสาธารณะ
+- ถนน
+- ขยะ
+- ท่อระบายน้ำ
+
+### สถานะเรื่องร้องเรียน
+- ใหม่
+- รอตรวจสอบ
+- กำลังดำเนินการ
+- เสร็จสิ้น
+
+### ลำดับความสำคัญ
+- ด่วน
+- ปกติ
+
+### ประเภทฟิลด์ในแบบฟอร์ม
+- text - ข้อความ
+- textarea - ข้อความหลายบรรทัด
+- select - เลือกจากรายการ
+- checkbox - เลือกหลายข้อ
+- number - ตัวเลข
+- email - อีเมล
+- phone - เบอร์โทรศัพท์
+- date - วันที่
+- file - ไฟล์
+- location - ตำแหน่ง
+
+## 🌐 การรองรับหลายภาษา
+
+ระบบรองรับภาษาไทยและภาษาอังกฤษ โดยใช้ i18next
+
+### ไฟล์ภาษา
+```
+locales/
+├── th/                 # ภาษาไทย
+│   ├── auth.json
+│   ├── common.json
+│   ├── complaints.json
+│   ├── dashboard.json
+│   ├── forms.json
+│   └── reports.json
+└── en/                 # ภาษาอังกฤษ
+    ├── auth.json
+    ├── common.json
+    ├── complaints.json
+    ├── dashboard.json
+    ├── forms.json
+    └── reports.json
+```
+
+## 🔧 การพัฒนา
+
+### การเพิ่มหน้าใหม่
+1. สร้างไฟล์ใน `src/pages/`
+2. เพิ่ม route ใน `src/routes/config.tsx`
+3. เพิ่มการแปลภาษาใน `src/locales/`
+
+### การเพิ่ม Component ใหม่
+1. สร้างไฟล์ใน `src/components/` หรือ `src/domains/[domain]/components/`
+2. Export จาก `src/domains/[domain]/components/index.ts`
+
+### การเพิ่ม Type ใหม่
+1. สร้างไฟล์ใน `src/common/types/` หรือ `src/domains/[domain]/types/`
+2. Export จาก `src/common/types/index.ts`
+
+## 📝 การ Deploy
+
+### Build สำหรับ Production
+```bash
+npm run build
+```
+
+### ไฟล์ที่ได้
+- `dist/` - ไฟล์ที่ build แล้ว
+- `dist/index.html` - ไฟล์หลัก
+- `dist/assets/` - ไฟล์ CSS, JS และ Assets
+
+## 🤝 การมีส่วนร่วม
+
+1. Fork โปรเจค
+2. สร้าง Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit การเปลี่ยนแปลง (`git commit -m 'Add some AmazingFeature'`)
+4. Push ไปยัง Branch (`git push origin feature/AmazingFeature`)
+5. เปิด Pull Request
+
+## 📄 License
+
+โปรเจคนี้อยู่ภายใต้ License [MIT](LICENSE)
+
+## 📞 ติดต่อ
+
+หากมีคำถามหรือข้อเสนอแนะ กรุณาติดต่อทีมพัฒนา
