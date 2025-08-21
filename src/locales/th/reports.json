@@ -1,0 +1,31 @@
+
+{
+  "title": "รายงาน",
+  "description": "สรุปข้อมูลและสถิติเรื่องร้องเรียน",
+  "filter": "ตัวกรอง",
+  "exportData": "ส่งออกข้อมูล",
+  "totalComplaints": "เรื่องร้องเรียนรวม",
+  "resolved": "แก้ไขเสร็จสิ้น",
+  "averageTime": "เวลาเฉลี่ย",
+  "satisfaction": "ความพึงพอใจ",
+  "ofTotal": "ของทั้งหมด",
+  "daysPerCase": "วัน ต่อเรื่อง",
+  "outOf5": "จาก 5 คะแนน",
+  "monthlyTrend": "แนวโน้มรายเดือน",
+  "monthlyTrendDescription": "เปรียบเทียบจำนวนเรื่องร้องเรียนและเรื่องที่แก้ไข",
+  "categoryDistribution": "แยกตามหมวดหมู่",
+  "categoryDistributionDescription": "สัดส่วนเรื่องร้องเรียนในแต่ละหมวดหมู่",
+  "weeklyTrend": "แนวโน้มรายสัปดาห์",
+  "weeklyTrendDescription": "จำนวนเรื่องร้องเรียนใหม่ในแต่ละสัปดาห์",
+  "hotspots": "พื้นที่เสี่ยง (Hotspots)",
+  "hotspotsDescription": "พื้นที่ที่มีเรื่องร้องเรียนมากที่สุด",
+  "complaintsUnit": "เรื่องร้องเรียน",
+  "months": {
+    "jan": "ม.ค.",
+    "feb": "ก.พ.",
+    "mar": "มี.ค.",
+    "apr": "เม.ย.",
+    "may": "พ.ค.",
+    "jun": "มิ.ย."
+  }
+}

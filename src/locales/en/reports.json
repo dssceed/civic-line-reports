@@ -1,0 +1,31 @@
+
+{
+  "title": "Reports",
+  "description": "Complaint data summary and statistics",
+  "filter": "Filter",
+  "exportData": "Export Data",
+  "totalComplaints": "Total Complaints",
+  "resolved": "Resolved",
+  "averageTime": "Average Time",
+  "satisfaction": "Satisfaction",
+  "ofTotal": "of total",
+  "daysPerCase": "days per case",
+  "outOf5": "out of 5",
+  "monthlyTrend": "Monthly Trend",
+  "monthlyTrendDescription": "Comparison of complaints received vs resolved",
+  "categoryDistribution": "By Category",
+  "categoryDistributionDescription": "Proportion of complaints in each category",
+  "weeklyTrend": "Weekly Trend",
+  "weeklyTrendDescription": "New complaints per week",
+  "hotspots": "Hotspots",
+  "hotspotsDescription": "Areas with the most complaints",
+  "complaintsUnit": "complaints",
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb", 
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun"
+  }
+}

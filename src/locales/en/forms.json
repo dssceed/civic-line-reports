@@ -1,0 +1,27 @@
+
+{
+  "title": "Manage Complaint Forms",
+  "description": "Create and manage forms for receiving complaints from citizens",
+  "createNew": "Create New Form",
+  "totalForms": "Total Forms",
+  "activeForms": "Active Forms",
+  "totalResponses": "Total Responses",
+  "formsCreated": "forms created",
+  "readyToUse": "ready to use",
+  "totalCount": "total count",
+  "active": "Active",
+  "inactive": "Inactive",
+  "statusUpdateSuccess": "Status Updated",
+  "statusUpdateDescription": "Form status has been updated",
+  "copyUrlSuccess": "URL Copied",
+  "copyUrlDescription": "URL for \"{{formName}}\" copied",
+  "deleteSuccess": "Form Deleted",
+  "deleteDescription": "Form has been removed from system",
+  "fields": "fields",
+  "responses": "responses",
+  "createdOn": "Created on",
+  "formFields": "Form Fields",
+  "copyUrl": "Copy URL",
+  "openForm": "Open Form",
+  "formUrl": "Form URL"
+}

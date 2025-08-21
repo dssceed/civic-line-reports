@@ -1,0 +1,27 @@
+
+{
+  "title": "จัดการฟอร์มร้องเรียน",
+  "description": "สร้างและจัดการฟอร์มสำหรับรับเรื่องร้องเรียนจากประชาชน",
+  "createNew": "สร้างฟอร์มใหม่",
+  "totalForms": "ฟอร์มทั้งหมด",
+  "activeForms": "ฟอร์มที่เปิดใช้งาน",
+  "totalResponses": "การตอบกลับรวม",
+  "formsCreated": "ฟอร์มที่สร้างไว้",
+  "readyToUse": "พร้อมใช้งาน",
+  "totalCount": "ครั้งทั้งหมด",
+  "active": "เปิดใช้งาน",
+  "inactive": "ปิดใช้งาน",
+  "statusUpdateSuccess": "อัพเดตสถานะสำเร็จ",
+  "statusUpdateDescription": "สถานะฟอร์มได้รับการอัพเดตแล้ว",
+  "copyUrlSuccess": "คัดลอก URL สำเร็จ",
+  "copyUrlDescription": "คัดลอก URL ของ \"{{formName}}\" แล้ว",
+  "deleteSuccess": "ลบฟอร์มสำเร็จ",
+  "deleteDescription": "ฟอร์มถูกลบออกจากระบบแล้ว",
+  "fields": "ฟิลด์",
+  "responses": "การตอบกลับ",
+  "createdOn": "สร้างเมื่อ",
+  "formFields": "ฟิลด์ในฟอร์ม",
+  "copyUrl": "คัดลอก URL",
+  "openForm": "เปิดฟอร์ม",
+  "formUrl": "URL ของฟอร์ม"
+}

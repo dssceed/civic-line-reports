@@ -1,0 +1,35 @@
+
+{
+  "navigation": {
+    "dashboard": "แดชบอร์ด",
+    "complaints": "เรื่องร้องเรียน",
+    "reports": "รายงาน",
+    "settings": "ตั้งค่า",
+    "forms": "ฟอร์ม",
+    "users": "จัดการผู้ใช้",
+    "categories": "หมวดหมู่",
+    "logout": "ออกจากระบบ"
+  },
+  "actions": {
+    "search": "ค้นหา",
+    "filter": "กรอง",
+    "export": "ส่งออก",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "view": "ดู",
+    "copy": "คัดลอก",
+    "close": "ปิด"
+  },
+  "status": {
+    "loading": "กำลังโหลด...",
+    "success": "สำเร็จ",
+    "error": "เกิดข้อผิดพลาด",
+    "noData": "ไม่มีข้อมูล"
+  },
+  "validation": {
+    "required": "กรุณากรอกข้อมูล",
+    "invalidFormat": "รูปแบบไม่ถูกต้อง"
+  }
+}

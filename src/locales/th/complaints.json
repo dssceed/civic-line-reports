@@ -1,0 +1,82 @@
+
+{
+  "title": "เรื่องร้องเรียน",
+  "description": "จัดการเรื่องร้องเรียนทั้งหมด",
+  "searchPlaceholder": "ค้นหาหมายเลขเรื่องร้องเรียน...",
+  "filters": {
+    "status": "สถานะ",
+    "category": "หมวดหมู่",
+    "priority": "ความสำคัญ",
+    "dateRange": "ช่วงวันที่"
+  },
+  "status": {
+    "new": "ใหม่",
+    "pending": "รอตรวจสอบ",
+    "inProgress": "กำลังดำเนินการ",
+    "completed": "เสร็จสิ้น"
+  },
+  "priority": {
+    "urgent": "ด่วน",
+    "normal": "ปกติ"
+  },
+  "categories": {
+    "electrical": "ไฟฟ้าสาธารณะ",
+    "road": "ถนน",
+    "waste": "ขยะ",
+    "drainage": "ท่อระบายน้ำ"
+  },
+  "actions": {
+    "viewDetails": "ดูรายละเอียด",
+    "edit": "แก้ไข",
+    "delete": "ลบ",
+    "assign": "มอบหมาย",
+    "updateStatus": "อัปเดตสถานะ"
+  },
+  "activityLog": {
+    "title": "ประวัติการดำเนินการ",
+    "description": "รายละเอียดการดำเนินการทั้งหมดของเรื่องร้องเรียนนี้",
+    "addAction": "เพิ่มการดำเนินการ",
+    "addActionDescription": "บันทึกการดำเนินการใหม่สำหรับเรื่องร้องเรียนนี้",
+    "actionType": "ประเภทการดำเนินการ",
+    "actionTypePlaceholder": "เลือกประเภทการดำเนินการ",
+    "description": "คำอธิบาย",
+    "descriptionPlaceholder": "อธิบายการดำเนินการที่ทำ...",
+    "notes": "บันทึกเพิ่มเติม",
+    "notesPlaceholder": "บันทึกเพิ่มเติม (ไม่บังคับ)",
+    "reason": "เหตุผล",
+    "reasonPlaceholder": "เหตุผลในการดำเนินการ (ไม่บังคับ)",
+    "estimatedCompletion": "คาดว่าจะเสร็จ",
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "saving": "กำลังบันทึก...",
+    "refresh": "รีเฟรช",
+    "loading": "กำลังโหลด...",
+    "noActivity": "ไม่พบประวัติการดำเนินการ",
+    "filters": {
+      "actionType": "ประเภทการดำเนินการ",
+      "performedBy": "ผู้ดำเนินการ",
+      "performedByPlaceholder": "ค้นหาผู้ดำเนินการ",
+      "dateFrom": "วันที่เริ่มต้น",
+      "dateTo": "วันที่สิ้นสุด",
+      "all": "ทั้งหมด"
+    },
+    "actions": {
+      "created": "สร้างเรื่อง",
+      "status_changed": "เปลี่ยนสถานะ",
+      "assigned": "มอบหมายงาน",
+      "priority_changed": "เปลี่ยนความสำคัญ",
+      "note_added": "เพิ่มบันทึก",
+      "image_added": "เพิ่มรูปภาพ",
+      "location_updated": "อัปเดตตำแหน่ง",
+      "completed": "เสร็จสิ้น",
+      "reopened": "เปิดใหม่"
+    },
+    "details": {
+      "changedFrom": "เปลี่ยนจาก",
+      "changedTo": "เป็น",
+      "reason": "เหตุผล",
+      "estimatedCompletion": "คาดว่าจะเสร็จ",
+      "notes": "บันทึก"
+    }
+  }
+}

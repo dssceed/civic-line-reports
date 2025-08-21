@@ -1,0 +1,82 @@
+
+{
+  "title": "Complaints",
+  "description": "Manage all complaints",
+  "searchPlaceholder": "Search complaint number...",
+  "filters": {
+    "status": "Status",
+    "category": "Category",
+    "priority": "Priority",
+    "dateRange": "Date Range"
+  },
+  "status": {
+    "new": "New",
+    "pending": "Pending",
+    "inProgress": "In Progress",
+    "completed": "Completed"
+  },
+  "priority": {
+    "urgent": "Urgent",
+    "normal": "Normal"
+  },
+  "categories": {
+    "electrical": "Public Electricity",
+    "road": "Road",
+    "waste": "Waste",
+    "drainage": "Drainage"
+  },
+  "actions": {
+    "viewDetails": "View Details",
+    "edit": "Edit",
+    "delete": "Delete",
+    "assign": "Assign",
+    "updateStatus": "Update Status"
+  },
+  "activityLog": {
+    "title": "Activity History",
+    "description": "All activity details for this complaint",
+    "addAction": "Add Action",
+    "addActionDescription": "Record new action for this complaint",
+    "actionType": "Action Type",
+    "actionTypePlaceholder": "Select action type",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe the action taken...",
+    "notes": "Additional Notes",
+    "notesPlaceholder": "Additional notes (optional)",
+    "reason": "Reason",
+    "reasonPlaceholder": "Reason for action (optional)",
+    "estimatedCompletion": "Estimated Completion",
+    "save": "Save",
+    "cancel": "Cancel",
+    "saving": "Saving...",
+    "refresh": "Refresh",
+    "loading": "Loading...",
+    "noActivity": "No activity history found",
+    "filters": {
+      "actionType": "Action Type",
+      "performedBy": "Performed By",
+      "performedByPlaceholder": "Search performer",
+      "dateFrom": "Date From",
+      "dateTo": "Date To",
+      "all": "All"
+    },
+    "actions": {
+      "created": "Created",
+      "status_changed": "Status Changed",
+      "assigned": "Assigned",
+      "priority_changed": "Priority Changed",
+      "note_added": "Note Added",
+      "image_added": "Image Added",
+      "location_updated": "Location Updated",
+      "completed": "Completed",
+      "reopened": "Reopened"
+    },
+    "details": {
+      "changedFrom": "Changed from",
+      "changedTo": "to",
+      "reason": "Reason",
+      "estimatedCompletion": "Estimated completion",
+      "notes": "Notes"
+    }
+  }
+}

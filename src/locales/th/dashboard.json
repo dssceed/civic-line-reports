@@ -1,0 +1,41 @@
+
+{
+  "title": "แดชบอร์ด",
+  "description": "ภาพรวมระบบจัดการเรื่องร้องเรียน",
+  "newComplaints": "เรื่องใหม่",
+  "inProgress": "กำลังดำเนินการ",
+  "completed": "เสร็จสิ้น",
+  "urgent": "ด่วน",
+  "waitingForReceiving": "รอการรับเรื่อง",
+  "underReview": "อยู่ระหว่างแก้ไข",
+  "thisMonth": "เดือนนี้",
+  "urgentAction": "ต้องดำเนินการทันที",
+  "recentComplaints": "เรื่องร้องเรียนล่าสุด",
+  "recentComplaintsDescription": "รายการเรื่องร้องเรียนที่เข้ามาใหม่",
+  "weeklyComplaints": "การร้องเรียนรายสัปดาห์",
+  "weeklyComplaintsDescription": "เปรียบเทียบจำนวนการร้องเรียนในแต่ละวันของสัปดาห์",
+  "categoryComparison": "เปรียบเทียบตามหมวดหมู่",
+  "categoryComparisonDescription": "สัดส่วนการร้องเรียนแยกตามประเภทปัญหา",
+  "newVsTotal": "เปรียบเทียบเรื่องใหม่กับทั้งหมด",
+  "newVsTotalDescription": "สัดส่วนเรื่องร้องเรียนใหม่เทียบกับจำนวนทั้งหมด",
+  "new": "ใหม่",
+  "total": "ทั้งหมด",
+  "newPercentage": "สัดส่วนเรื่องใหม่",
+  "categories": {
+    "electrical": "ไฟฟ้าสาธารณะ",
+    "road": "ถนน",
+    "waste": "ขยะ",
+    "drainage": "ท่อระบายน้ำ",
+    "other": "อื่นๆ"
+  },
+  "status": {
+    "new": "ใหม่",
+    "inProgress": "กำลังดำเนินการ",
+    "pending": "รอตรวจสอบ",
+    "completed": "เสร็จสิ้น"
+  },
+  "priority": {
+    "urgent": "ด่วน",
+    "normal": "ปกติ"
+  }
+}

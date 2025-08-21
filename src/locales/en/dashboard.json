@@ -1,0 +1,41 @@
+
+{
+  "title": "Dashboard",
+  "description": "Overview of complaint management system",
+  "newComplaints": "New Complaints",
+  "inProgress": "In Progress",
+  "completed": "Completed",
+  "urgent": "Urgent",
+  "waitingForReceiving": "Waiting for receiving",
+  "underReview": "Under review",
+  "thisMonth": "This month",
+  "urgentAction": "Requires immediate action",
+  "recentComplaints": "Recent Complaints",
+  "recentComplaintsDescription": "List of newly received complaints",
+  "weeklyComplaints": "Weekly Complaints",
+  "weeklyComplaintsDescription": "Compare complaint numbers for each day of the week",
+  "categoryComparison": "Category Comparison",
+  "categoryComparisonDescription": "Proportion of complaints by problem type",
+  "newVsTotal": "New vs Total Comparison",
+  "newVsTotalDescription": "Proportion of new complaints compared to total",
+  "new": "New",
+  "total": "Total",
+  "newPercentage": "New complaint ratio",
+  "categories": {
+    "electrical": "Public Electricity",
+    "road": "Road",
+    "waste": "Waste",
+    "drainage": "Drainage",
+    "other": "Others"
+  },
+  "status": {
+    "new": "New",
+    "inProgress": "In Progress",
+    "pending": "Pending",
+    "completed": "Completed"
+  },
+  "priority": {
+    "urgent": "Urgent",
+    "normal": "Normal"
+  }
+}

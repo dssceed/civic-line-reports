@@ -1,0 +1,35 @@
+
+{
+  "navigation": {
+    "dashboard": "Dashboard",
+    "complaints": "Complaints",
+    "reports": "Reports",
+    "settings": "Settings",
+    "forms": "Forms",
+    "users": "Users",
+    "categories": "Categories",
+    "logout": "Logout"
+  },
+  "actions": {
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "view": "View",
+    "copy": "Copy",
+    "close": "Close"
+  },
+  "status": {
+    "loading": "Loading...",
+    "success": "Success",
+    "error": "Error",
+    "noData": "No data"
+  },
+  "validation": {
+    "required": "Please fill in this field",
+    "invalidFormat": "Invalid format"
+  }
+}
